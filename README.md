@@ -1,7 +1,6 @@
 # Review-Infrared-small-target-segmentation-networks
-We will upload the trained 13 segmentation network models (.pkl) and the comparative experimental data.
 
-1. We have uploaded the pkl files of the three trained network models, including the best LW-IRST model. The remaining 10 network model pkl files in the Comparison experiment section are then uploaded.
+1. We have uploaded the pkl files of the 4 trained network models, including the best LW-IRST model. The remaining 9 network model pkl files in the Comparison experiment section are then uploaded.
 
 2. We have uploaded the label files of 5 public single frame data sets.
 
