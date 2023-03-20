@@ -8,11 +8,6 @@ from  mpl_toolkits.mplot3d import Axes3D
 from thop import profile
 import time
 
-def getZ(img,X,Y):
-    gray = img[X,Y]
-    return gray
-
-
 def parse_args():
     #
     # Setting parameters
@@ -49,12 +44,9 @@ def parse_args():
     parser.add_argument('--pkl-path_LW_IRST', type=str, default=r'./results/merged_LW_IRST_ablation_Iter-18400_mIoU-0.6638_fmeasure-0.7979.pkl',
                         help='checkpoint path')
 
-    #
     # Test image parameters
-    #
     parser.add_argument('--image-path', type=str, default=r'./data/single/31.png', help='image path')
     parser.add_argument('--base-size', type=int, default=256, help='base')
-
 
     args = parser.parse_args()
     return args
