@@ -9,6 +9,8 @@ ISSN 0031-3203,
 https://doi.org/10.1016/j.patcog.2023.109788.
 (https://www.sciencedirect.com/science/article/pii/S0031320323004867)
 
+Abstract:Fast and robust small target detection is one of the key technologies in the infrared (IR) search and tracking systems. With the development of deep learning, there are many data-driven IR small target segmentation algorithms, but they have not been extensively surveyed; we believe our proposed survey is the first to systematically survey them. Focusing on IR small target segmentation tasks, we summarized 7 characteristics of IR small targets, 3 feature extraction methods, 8 design strategies, 30 segmentation networks, 8 loss functions, and 13 evaluation indexes. Then, the accuracy, robustness, and computational complexities of 18 segmentation networks on 5 public datasets were compared and analyzed. Finally, we have discussed the existing problems and future trends in the field of IR small target detection. The proposed survey is a valuable reference for both beginners adapting to current trends in IR small target detection and researchers already experienced in this field.
+
 1. We have uploaded the label files of 5 public single frame data sets.
 
       Data set 1 is derived from "Miss Detection vs. False Alarm: Adversarial Learning for Small Object Segmentation in Infrared Images".
