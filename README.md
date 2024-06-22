@@ -15,6 +15,8 @@ Abstract:Fast and robust small target detection is one of the key technologies i
 
       Data set 1 is derived from "Miss Detection vs. False Alarm: Adversarial Learning for Small Object Segmentation in Infrared Images".
 
+      Note: In the dataset MDvsFA, the original author published 10000 images, of which 22 were damaged. We compared them one by one, with IDs 239, 245, 260, 264, 2543, 2553, 2561, 2808, 2817, 2819, 3503, 3504, 3947, 3949, 3962, 7389, 7395, 8094, 8105, 8112, 8757, and 8772, respectively. The actual number is 9978. Therefore, you need to delete the damaged images from 1000 and rename them from 000000 to 009977 to maintain consistency.
+
       Data set 2 is derived from "AGPCNet: Attention-Guided Pyramid Context Networks for Infrared Small Target Detection".
 
       Data set 3 is derived from "Asymmetric Contextual Modulation for Infrared Small Target Detection".
@@ -23,6 +25,6 @@ Abstract:Fast and robust small target detection is one of the key technologies i
 
       Data set 5 is derived from "ISNet: Shape Matters for Infrared Small Target Detection".
 
-2. We have uploaded the inference code of infrared small target segmentation, which can directly load pkl files.
+3. We have uploaded the inference code of infrared small target segmentation, which can directly load pkl files.
 
-3. We have uploaded a lot of pictures of the comparison experiment.
+4. We have uploaded a lot of pictures of the comparison experiment.
