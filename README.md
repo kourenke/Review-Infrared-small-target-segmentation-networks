@@ -29,7 +29,7 @@ Abstract:Fast and robust small target detection is one of the key technologies i
 
 4. We have uploaded a lot of pictures of the comparison experiment.
 
-In addition, we have also compiled a set of evaluation index libraries suitable for algorithms in this field, named BinarySOSMetrics.
+In addition, we have also compiled a set of evaluation metrics libraries suitable for algorithms in this field, named BinarySOSMetrics.
 
 The relevant code is published on https://github.com/BinarySOS/BinarySOSMetrics.
 
